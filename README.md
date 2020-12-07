@@ -1,16 +1,44 @@
-# projeto_perguntas
+### Jogo Perguntas
+Aplicação Mobile feita com [Flutter](https://flutter.dev/), um simple jogos de perguntas, contém 5 perguntas e após responde-las mostrará a pontuação do usuário. Todos os dados consumidos na aplicação estão mockados.
 
-A new Flutter project.
+## Tecnologias
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-## Getting Started
+### Interface
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src = "https://github.com/rodolforoc/jogo-perguntas/blob/main/assets/images/perguntas_pergunta.PNG" height="700">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://github.com/rodolforoc/jogo-perguntas/blob/main/assets/images/perguntas_fim.PNG" height="700">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src = "https://github.com/rodolforoc/jogo-perguntas/blob/main/assets/images/perguntas_demo.gif" height="700">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+### Funcionamento da Aplicação
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Tela com pergunta e quatro alternativas.
+* Após responder todas as perguntas mostrará o nível(pontuação) do usuário.
+* Funcionalidade para reiniciar o jogo.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalações e usos
+
+<h4 align="center">
+  ⚠️ Antes de rodar a aplicação, é necessário que o Emulador esteja rodando⚠️
+</h4>
+
+Clone ou faça o download desse repositório:
+
+```
+# Clone o repositório
+$ git clone https://github.com/rodolforoc/jogo-perguntas
+```
+
+Dentro da pasta /jogo-perguntas rode os seguintes comandos:
+
+```
+# Rode a Aplicação Mobile
+$ Run 'main.dart'
+
+# running on Emulator
+```
